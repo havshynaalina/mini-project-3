@@ -1,0 +1,171 @@
+:root {
+    --nav-color: #FED136;
+    --primary-text-color: #222222;
+    --secondary-text-color: #777777;
+    --additional-color: #BBBBBB;
+    --background-color: #ffffff;
+}
+
+.Logo {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--nav-color);
+    font-size: 36px;
+}
+
+.header-nav {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+}
+
+a {
+    color: var(--nav-color);
+    text-decoration: none;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+h2 { 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    color:var(--secondary-text-color)
+}
+
+.hero {
+    text-align: center;
+    background-color: #ffffff;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 56px;
+    width: 274px;
+    height: 185px;
+
+}
+
+.Contact {
+    text-align: center;
+    background-color: var(--primary-text-color)
+}
+
+.CU {
+    color: #ffffff;
+    margin: 114px;
+}
+
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-right textarea {
+    height: 100%;
+}
+
+.form-left input {
+    width: 455px;
+    height: 50px;
+}
+
+.form-right textarea {
+    width: 455px;
+    height: 190px;
+}
+
+input {
+    background-color: var(--background-color);
+    color: var(--additional-color);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin: 18px;
+    padding-left: 13px;
+    width: 455px;
+    height: 50px;
+}
+
+textarea {
+    background-color: var(--background-color);
+    color: var(--additional-color);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin: 18px;
+    padding: 13px;
+    width: 458px;
+    height: 212px;
+}
+
+.contact-btn {
+    background-color: var(--nav-color);
+    color: var(--background-color);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+    margin: 18px;
+    padding: 13px;
+    width: 242px;
+    height: 58px;
+}
